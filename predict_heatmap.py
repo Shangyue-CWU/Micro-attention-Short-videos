@@ -62,7 +62,7 @@ with torch.no_grad():
 # CSV
 csv_path = os.path.join(OUT_DIR, "attention_scores.csv")
 np.savetxt(csv_path, attn, delimiter=",")
-print(f"✅ Saved per-second attention → {csv_path}")
+print(f"Saved per-second attention → {csv_path}")
 
 # Plot
 plt.figure(figsize=(10, 3))
