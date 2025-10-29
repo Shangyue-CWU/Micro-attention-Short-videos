@@ -1,0 +1,7 @@
+{
+  "epochs": 300,
+  "best_val_mse": 0.03772567957639694,
+  "train_T": 6,
+  "val_T": 2,
+  "device": "cuda"
+}
